@@ -2,7 +2,7 @@ source("load.R")
 
 png(filename = "plot2.png", 
     width = 480, height = 480,
-    units = "px", bg = "transparent")
+    units = "px", bg = "white")
 
 plot(DateTime, Global_active_power, 
      type = "l",

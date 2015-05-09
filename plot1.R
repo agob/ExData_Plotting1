@@ -2,9 +2,7 @@ source("load.R")
 
 png(filename = "plot1.png", 
     width = 480, height = 480, 
-    units = "px", bg = "transparent")
-
-rect(par("usr")[1], par("usr")[3], par("usr")[2], par("usr")[4], col = "white")
+    units = "px", bg = "white")
 
 hist(Global_active_power, 
      col = "red", 

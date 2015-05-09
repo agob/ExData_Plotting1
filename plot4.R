@@ -1,7 +1,7 @@
 source("load_data.R")
 png(filename = "plot4.png", 
     width = 480, height = 480,
-    units = "px", bg = "transparent")
+    units = "px", bg = "white")
 par(mfrow = c(2, 2))
 
 ## topleft

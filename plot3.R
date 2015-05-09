@@ -2,7 +2,7 @@ source("load.R")
 
 png(filename = "plot3.png", 
     width = 480, height = 480,
-    units = "px", bg = "transparent")
+    units = "px", bg = "white")
 
 plot(DateTime, Sub_metering_1, 
      type = "l",
